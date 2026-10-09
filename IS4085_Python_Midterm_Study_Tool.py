@@ -2751,7 +2751,7 @@ def main():
     random.seed()
     while True:
         print("\n" + "=" * 70)
-        print(BOLD("   IS 4485  -  PYTHON MIDTERM STUDY TOOL"))
+        print(BOLD("   IS 4085  -  PYTHON MIDTERM STUDY TOOL"))
         print("=" * 70)
         print(f"  1) Practice Exam 1        ({len(QUIZ1)} questions)")
         print(f"  2) Practice Exam 2        ({len(QUIZ2)} questions)")
@@ -3693,7 +3693,7 @@ if HAVE_TK:
             except Exception:
                 pass
             self.root = tk.Tk()
-            self.root.title("IS 4485 - Python Midterm Study Tool")
+            self.root.title("IS 4085 - Python Midterm Study Tool")
             self.root.geometry("1080x820")
             self.root.minsize(820, 640)
             self.root.report_callback_exception = self._report
@@ -3792,7 +3792,7 @@ if HAVE_TK:
             f = sf.body
             head = ttk.Frame(f)
             head.pack(fill="x")
-            ttk.Label(head, text="IS 4485  -  Python Midterm Study Tool", font=F["h1"],
+            ttk.Label(head, text="IS 4085  -  Python Midterm Study Tool", font=F["h1"],
                       foreground=HEAD).pack(side="left")
             self.theme_button(head).pack(side="right")
             self.wlabel(f, "Take the exams.  F2 = Dev Mode (step through any code)    F3 = cheat sheets "
