@@ -13,9 +13,11 @@ An interactive desktop study app for an intro Python midterm. It doesn't just te
 - Playground for stepping through your own code, light/dark mode, GUI or `--cli` terminal mode
 
 ## Screenshots
-| Feedback on a wrong answer | Dev Mode stepping through code |
-|---|---|
-| ![Feedback](docs/feedback.png) | ![Dev Mode](docs/devmode.png) |
+**Feedback on a wrong answer:** the real output, why the right answer is right, and why yours isn't
+![Feedback](docs/feedback.png)
+
+**Dev Mode:** stepping through the code line by line, with every variable's value
+![Dev Mode](docs/devmode.png)
 
 ## How it works
 ```mermaid
