@@ -19,7 +19,7 @@ An interactive desktop study app for an intro Python midterm. It doesn't just te
 
 ## How it works
 ```mermaid
-flowchart LR
+flowchart TD
     Q[Question bank<br/>code + choices + tags] --> R[Run the code in a sandbox<br/>restricted builtins, fake input]
     R --> T[sys.settrace records<br/>every line + variable state]
     T --> F[Feedback screen<br/>real output + narration]
